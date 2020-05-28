@@ -5,7 +5,7 @@ export class Product {
     price: number;
     imageUrl: string;
 
-    constructor(id, name , description ='', price = 0, imageUrl='https://images-na.ssl-images-amazon.com/images/I/51da%2B8RxEWL._SX679_.jpg'){
+    constructor(id, name , description ='', price = 0, imageUrl=''){
         this.id=id
         this.name=name
         this.description=description
